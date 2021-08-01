@@ -1,0 +1,3 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode" // waiting for astro's prettier plugin
+}
