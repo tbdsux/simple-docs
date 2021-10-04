@@ -1,9 +1,13 @@
 ---
-import Hello from '../components/Hello.astro';
-
-import BaseLayout from '../layouts/Base.astro'
+import Hero from "../components/Hero.astro";
+import Docs from "../components/Docs.astro";
+import PageLayout from "../layouts/page.astro";
 ---
 
-<BaseLayout title="My Simple Astro Site">
-    <Hello />
-</BaseLayout>
+<PageLayout
+  title="Welcome"
+  description="Simple documentation site for mini projects.">
+  <Hero />
+
+  <Docs />
+</PageLayout>
