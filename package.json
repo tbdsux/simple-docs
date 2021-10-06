@@ -2,6 +2,7 @@
   "name": "astro-tailwind-starter",
   "version": "0.0.1",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
